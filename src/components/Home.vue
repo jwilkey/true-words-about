@@ -27,17 +27,17 @@
         <div class="media-item">
           <img src="/static/images/TrueWords_Brand.png" />
           <div class="divider"></div>
-          <p class="media-title">Brand image</p>
+          <p class="media-title"><a href="/static/images/TrueWords_Brand.png" download>Brand image</a></p>
         </div>
         <div class="media-item">
           <img src="/static/images/Icon600.png" />
           <div class="divider"></div>
-          <p class="media-title">App icon</p>
+          <p class="media-title"><a href="/static/images/Icon600.png" download>App icon</a></p>
         </div>
         <div class="media-item">
           <img src="/static/images/TrueWords_HD.jpg" />
           <div class="divider"></div>
-          <p class="media-title">Hi Def Banner</p>
+          <p class="media-title"><a href="/static/images/TrueWords_HD.jpg" download>Hi Def Banner</a></p>
         </div>
       </div>
     </div>
@@ -107,6 +107,9 @@ p {
     }
     p {
       padding: 15px;
+    }
+    a {
+      color: #7a7597;
     }
   }
 }
