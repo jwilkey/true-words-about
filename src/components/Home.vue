@@ -6,7 +6,7 @@
 
     <div class="content">
       <div class="slogan">
-        YOU CAN STUDY THE BIBLE. HERE'S HOW.
+        You can study the bible. Here's how...
       </div>
       <div>
         <h2>DESCRIPTION</h2>
@@ -16,6 +16,11 @@
         <h2>LINKS</h2>
         <p>Application website: <a href="https://truewordsapp.com">https://truewordsapp.com</a></p>
         <p>iOS app: <a href="https://itunes.apple.com/us/app/true-words-bible-study/id1252109003?mt=8">iTunes app store</a></p>
+      </div>
+      <div>
+        <h2>VIDEOS</h2>
+        <iframe width="100%" class="video" src="https://www.youtube.com/embed/OXpqHXBHPnk?rel=0" frameborder="0" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/watch?v=OXpqHXBHPnk&t=3s">view on YouTube</a>
       </div>
       <div class="media">
         <h2>IMAGE MEDIA</h2>
@@ -60,22 +65,26 @@ p {
 .header {
   text-align: center;
   padding: 10px;
-  background-color: #fafafa;
+  background-color: #212226;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
   display: table;
   width: 100%;
   p {
     display: table-cell;
     vertical-align: middle;
+    color: white;
   }
 }
 
 .slogan {
   text-align: center;
-  color: #777;
+  color: #7a7597;
 }
 .content {
   padding: 10px;
+}
+.video {
+  min-height: 190px;
 }
 .media {
   .media-item {
